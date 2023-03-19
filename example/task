@@ -1,0 +1,4 @@
+1. Add https://reactrouter.com/
+2. Create Home page
+3. Create productApi.js in src->api - Done
+4. getProductList call in home page

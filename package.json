@@ -51,6 +51,7 @@
     "dist"
   ],
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.12",
     "@reduxjs/toolkit": "^1.9.3",
     "moment": "^2.29.4",
     "react-redux": "^8.0.5",

@@ -9,6 +9,7 @@ import {
   REGISTER,
   REHYDRATE,
 } from "redux-persist";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import storage from "redux-persist/lib/storage";
 import { combineReducers } from "redux";
 import { configureStore } from "@reduxjs/toolkit";
@@ -63,7 +64,7 @@ const rootReducers = (state, action) => {
 
 const persistConfig = {
   key: "root",
-  storage,
+  storage:AsyncStorage,
   // blacklist: ["order"],
 };
 

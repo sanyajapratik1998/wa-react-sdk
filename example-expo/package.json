@@ -11,9 +11,9 @@
   "dependencies": {
     "expo": "~48.0.9",
     "expo-status-bar": "~1.4.4",
-    "react": "file:../node_modules/react",
+    "react": "18.2.0",
     "react-native": "0.71.4",
-    "wa-react-sdk": "file:.."
+     "wa-react-sdk": "1.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

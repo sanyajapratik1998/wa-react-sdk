@@ -1,10 +1,12 @@
-import React from 'react'
-
-import { ExampleComponent } from 'wa-react-sdk'
-import 'wa-react-sdk/dist/index.css'
+import React from 'react';
+import WAProvider, { productApi } from 'wa-react-sdk';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+   <WAProvider>
+    <div>Hello</div>
+   </WAProvider>
+  )
 }
 
 export default App

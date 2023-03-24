@@ -1,1 +1,167 @@
-{"businessId":11,"type":"restaurants","domain":"happy-eats.in","businessName":"Happy Eats","businessLocation":{"street":"Mathav Complex","area":"Sarthana Jakat Naka","city":"Surat","country":"India","pincode":"395006"},"businessDescription":"Happy Eats - Fastfood Restaurants","logo":"https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/photos/business/5ec2a2f0-f1b2-44be-91aa-e2353a5fb368.png","version":"2.0.0","currencySymbol":"₹","currencyCode":"INR","authentication_type":"phone-and-email","appName":"Happy Eats","theme":{"dark":true,"showTabBar":true,"themeColor":"#2C2B2A","primaryColor":"#e51a4b","secondaryColor":"#515151","isLoginRequired":false,"screenBackground":"oval"},"order":{"dinein":true,"pickup":true,"delivery":false,"autoAccept":false,"cancelFromUser":false,"cashOnDelivery":[],"orderDeliveryCharge":"20","orderPreparartionTime":30,"orderDeliveryChargeType":"Fixed","orderDeliveryChargeOnMinAmount":"00"},"delivery":{"availableLocation":{"city":null,"state":null,"country":null,"pincode":null}},"invoice":{"asdf":"asdf","defaultTemplate":2},"contactUs":{"email":"manish.jpatel1988@gmail.com","mobile":"9408812882","address":"shop 7 Shubham arcade ,Sarthana Jakat Naka, Nana Varachha, Surat, Gujarat ","bussinessName":"happy eats"},"product":{"hidePrice":false,"showReview":true,"aspectRatio":[1,1],"showCategory":true,"showVariants":true,"showSubCategory":true},"activeTime":{"friday":{"isOpen":true,"open_time":"2022-02-23T03:30:51.333Z","close_time":"2022-07-08T18:00:21.297Z"},"monday":{"isOpen":true,"open_time":"2022-02-23T03:30:00.337Z","close_time":"2022-07-08T18:00:00.904Z"},"sunday":{"isOpen":true,"open_time":"2022-07-08T03:30:01.737Z","close_time":"2022-07-08T18:00:26.104Z"},"tuesday":{"isOpen":true,"open_time":"2022-02-23T03:30:12.136Z","close_time":"2022-07-08T18:00:08.374Z"},"saturday":{"isOpen":true,"open_time":"2022-07-08T03:30:57.976Z","close_time":"2022-07-08T18:00:39.121Z"},"thursday":{"isOpen":true,"open_time":"2022-02-23T03:30:36.961Z","close_time":"2022-07-08T18:00:16.910Z"},"wednesday":{"isOpen":true,"open_time":"2022-02-23T03:30:23.780Z","close_time":"2022-07-08T18:00:13.107Z"}},"enableAppCoin":true,"appHomePage":{"hello":"wold","slider":[{"image":"https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/photos/lookup/ad3d2faf-edef-4cc4-b726-c47247fe33e9.png"},{"image":"https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/photos/lookup/702b7811-579c-41a9-a579-3f3ceeb1365b.png"},{"image":"https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/photos/lookup/69f996e3-f793-4e57-aaed-556496eea1b6.png"}],"bannerCard":[{"url":"offer","type":"Screen","image":"https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/photos/lookup/9a0f9cd8-a66e-4283-a29d-b0e137e404ce.jpg"}],"topProducts":["135","137","139","141","143","148","147","149","153","154","155","157","159","290","138","127","126"]},"activeTheme":1,"social_link":{"twitter":"https://play.google.com/store/apps/details?id=com.happyeatsapp","appStore":"https://play.google.com/store/apps/details?id=com.happyeatsapp","facebook":"https://play.google.com/store/apps/details?id=com.happyeatsapp","instagram":"https://play.google.com/store/apps/details?id=com.happyeatsapp","playStore":"https://play.google.com/store/apps/details?id=com.happyeatsapp"},"subscription":{"hello":"logo"},"restaurant":{"hello":"logo"},"on_boarding_step":"finished","redeem_coin":{"hello":"logo"},"donation":{"hello":"logo"},"referral":{"hello":"logo"},"ENV":"production","paymentKey":"yfSDhT34135563089754","paymentType":"paytm","expo_slug":null,"androidPackageName":"com.happyeatsapp","firebase_project_id":null,"eas_project_id":null,"iosBundleIdentifier":"com.happyeatsapp","google_android_file":"https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/files/apps/96d5ad57-46a9-4e7c-ac30-41d929de21ed.json","google_ios_file":"https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/files/apps/450efe96-db1a-4f1c-8fdb-160d3265f864.plist","fcm_server_key":null}
+{
+  "businessId": 11,
+  "type": "restaurants",
+  "domain": "happy-eats.in",
+  "businessName": "Happy Eats",
+  "businessLocation": {
+    "street": "Mathav Complex",
+    "area": "Sarthana Jakat Naka",
+    "city": "Surat",
+    "country": "India",
+    "pincode": "395006"
+  },
+  "businessDescription": "Happy Eats - Fastfood Restaurants",
+  "logo": "https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/photos/business/5ec2a2f0-f1b2-44be-91aa-e2353a5fb368.png",
+  "version": "2.0.0",
+  "currencySymbol": "₹",
+  "currencyCode": "INR",
+  "authentication_type": "phone-and-email",
+  "appName": "Happy Eats",
+  "theme": {
+    "dark": true,
+    "showTabBar": true,
+    "themeColor": "#2C2B2A",
+    "primaryColor": "#e51a4b",
+    "secondaryColor": "#515151",
+    "isLoginRequired": false,
+    "screenBackground": "oval"
+  },
+  "order": {
+    "dinein": true,
+    "pickup": true,
+    "delivery": false,
+    "autoAccept": false,
+    "cancelFromUser": false,
+    "cashOnDelivery": [],
+    "orderDeliveryCharge": "20",
+    "orderPreparartionTime": 30,
+    "orderDeliveryChargeType": "Fixed",
+    "orderDeliveryChargeOnMinAmount": "00"
+  },
+  "delivery": {
+    "availableLocation": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "pincode": null
+    }
+  },
+  "invoice": { "asdf": "asdf", "defaultTemplate": 2 },
+  "contactUs": {
+    "email": "manish.jpatel1988@gmail.com",
+    "mobile": "9408812882",
+    "address": "shop 7 Shubham arcade ,Sarthana Jakat Naka, Nana Varachha, Surat, Gujarat ",
+    "bussinessName": "happy eats"
+  },
+  "product": {
+    "hidePrice": false,
+    "showReview": true,
+    "aspectRatio": [1, 1],
+    "showCategory": true,
+    "showVariants": true,
+    "showSubCategory": true
+  },
+  "activeTime": {
+    "friday": {
+      "isOpen": true,
+      "open_time": "2022-02-23T03:30:51.333Z",
+      "close_time": "2022-07-08T18:00:21.297Z"
+    },
+    "monday": {
+      "isOpen": true,
+      "open_time": "2022-02-23T03:30:00.337Z",
+      "close_time": "2022-07-08T18:00:00.904Z"
+    },
+    "sunday": {
+      "isOpen": true,
+      "open_time": "2022-07-08T03:30:01.737Z",
+      "close_time": "2022-07-08T18:00:26.104Z"
+    },
+    "tuesday": {
+      "isOpen": true,
+      "open_time": "2022-02-23T03:30:12.136Z",
+      "close_time": "2022-07-08T18:00:08.374Z"
+    },
+    "saturday": {
+      "isOpen": true,
+      "open_time": "2022-07-08T03:30:57.976Z",
+      "close_time": "2022-07-08T18:00:39.121Z"
+    },
+    "thursday": {
+      "isOpen": true,
+      "open_time": "2022-02-23T03:30:36.961Z",
+      "close_time": "2022-07-08T18:00:16.910Z"
+    },
+    "wednesday": {
+      "isOpen": true,
+      "open_time": "2022-02-23T03:30:23.780Z",
+      "close_time": "2022-07-08T18:00:13.107Z"
+    }
+  },
+  "enableAppCoin": true,
+  "appHomePage": {
+    "hello": "wold",
+    "slider": [
+      {
+        "image": "https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/photos/lookup/ad3d2faf-edef-4cc4-b726-c47247fe33e9.png"
+      },
+      {
+        "image": "https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/photos/lookup/702b7811-579c-41a9-a579-3f3ceeb1365b.png"
+      },
+      {
+        "image": "https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/photos/lookup/69f996e3-f793-4e57-aaed-556496eea1b6.png"
+      }
+    ],
+    "bannerCard": [
+      {
+        "url": "offer",
+        "type": "Screen",
+        "image": "https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/photos/lookup/9a0f9cd8-a66e-4283-a29d-b0e137e404ce.jpg"
+      }
+    ],
+    "topProducts": [
+      "135",
+      "137",
+      "139",
+      "141",
+      "143",
+      "148",
+      "147",
+      "149",
+      "153",
+      "154",
+      "155",
+      "157",
+      "159",
+      "290",
+      "138",
+      "127",
+      "126"
+    ]
+  },
+  "activeTheme": 1,
+  "social_link": {
+    "twitter": "https://play.google.com/store/apps/details?id=com.happyeatsapp",
+    "appStore": "https://play.google.com/store/apps/details?id=com.happyeatsapp",
+    "facebook": "https://play.google.com/store/apps/details?id=com.happyeatsapp",
+    "instagram": "https://play.google.com/store/apps/details?id=com.happyeatsapp",
+    "playStore": "https://play.google.com/store/apps/details?id=com.happyeatsapp"
+  },
+  "subscription": { "hello": "logo" },
+  "restaurant": { "hello": "logo" },
+  "on_boarding_step": "finished",
+  "redeem_coin": { "hello": "logo" },
+  "donation": { "hello": "logo" },
+  "referral": { "hello": "logo" },
+  "ENV": "production",
+  "paymentKey": "yfSDhT34135563089754",
+  "paymentType": "paytm",
+  "expo_slug": null,
+  "androidPackageName": "com.happyeatsapp",
+  "firebase_project_id": null,
+  "eas_project_id": null,
+  "iosBundleIdentifier": "com.happyeatsapp",
+  "google_android_file": "https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/files/apps/96d5ad57-46a9-4e7c-ac30-41d929de21ed.json",
+  "google_ios_file": "https://s3.ap-south-1.amazonaws.com/assets.whitelabelapp.in/files/apps/450efe96-db1a-4f1c-8fdb-160d3265f864.plist",
+  "fcm_server_key": null
+}

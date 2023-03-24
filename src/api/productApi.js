@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import config from "../config.json";
-import { url } from "@utils/constant";
+import { url } from "../utils/constant";
 
 export const productApi = createApi({
   reducerPath: "productApi",
@@ -90,7 +90,7 @@ export const productApi = createApi({
         };
       },
     }),
-    getReletedProductList: builder.mutation({
+    getRelatedProductList: builder.mutation({
       query: (params) => {
         let url = `/v2/product/list/${config.businessId}?category=${params.getProductDetailsData?.category}`;
         if (params.getProductDetailsData?.sub_category) {
@@ -115,5 +115,5 @@ export const {
   useProductCommentListMutation,
   useDeleteCommentReviewMutation,
   useGetRecentProductListMutation,
-  useGetReletedProductListMutation,
+  useGetRelatedProductListMutation,
 } = productApi;

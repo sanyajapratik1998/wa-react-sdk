@@ -1,11 +1,10 @@
-import React from 'react';
-import WAProvider, { productApi } from 'wa-react-sdk';
-
+import React from 'react'
+import WAProvider from 'wa-react-sdk'
 const App = () => {
   return (
-   <WAProvider>
-    <div>Hello</div>
-   </WAProvider>
+    <WAProvider>
+      <div>Hello</div>
+    </WAProvider>
   )
 }
 

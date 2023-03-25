@@ -3,8 +3,9 @@ import WAProvider from './WAProvider'
 import {store} from './store'
 
 export  {
+  WAProvider as default,
   productApi,
   store
 };
 
-export default WAProvider;
+// module.exports = WAProvider;

@@ -24,7 +24,7 @@ export const productApi = createApi({
     getProductList: builder.mutation({
       query: () => {
         return {
-          url: `/v2/products/list/${config.businessId}`,
+          url: `/v2/product/list/${config.businessId}`,
           method: "GET",
         };
       },
